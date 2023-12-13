@@ -1,7 +1,3 @@
-Certainly! To make the content more stylish for a GitHub README, you can use markdown for formatting. Here's the enhanced and stylized version:
-
----
-
 # Metro Navigation System
 
 The **Metro Navigation System** is a Java terminal-based application designed to provide efficient navigation within a metro system. It is organized into four packages: `metroSystem`, `functionality`, `maps`, and `utility`, each serving a specific purpose to enhance the overall functionality and organization of the system.
@@ -47,7 +43,3 @@ The `metroSystem` package houses the main class, `Initiator`. This class perform
 - Allows the user to select a specific metro map.
 - Facilitates user selection of source and destination stations.
 - Prints the most efficient route based on the selected metro map.
-
----
-
-Feel free to customize the markdown as per your preferences for GitHub README styling.
