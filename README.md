@@ -2,37 +2,37 @@
 Certainly, let's refine and detail the description of the Java terminal-based project named "Metro Navigation System":<br>
 
 Project Overview:<br>
-The "Metro Navigation System" is a Java terminal-based application structured into four packages: metroSystem, functionality, maps, and utility. Each package serves a specific purpose to enhance the functionality and organization of the system.
+The "Metro Navigation System" is a Java terminal-based application structured into four packages: metroSystem, functionality, maps, and utility. Each package serves a specific purpose to enhance the functionality and organization of the system.<br>
 
-Functionality Package:
-This package encapsulates the core functionality of the metro navigation system through two key classes: MetroStation and MetroMap.
+Functionality Package:<br>
+This package encapsulates the core functionality of the metro navigation system through two key classes: MetroStation and MetroMap.<br>
 
-MetroStation Class: This class holds essential information about a metro station, including its name, connected stations, distances to these stations, and the corresponding metro lines.
+“*”MetroStation Class: This class holds essential information about a metro station, including its name, connected stations, distances to these stations, and the corresponding metro lines.<br>
 
-MetroMap Class: Responsible for orchestrating the metro system's functionality, this class features methods such as:
+“*”MetroMap Class: Responsible for orchestrating the metro system's functionality, this class features methods such as:<br>
 
-createStation: Adds a new station to the metro map.
-createPath: Establishes a path between two stations, creating new stations if necessary.
-getLineInfo: Retrieves information about metro lines.
-pathInfo: Determines junctions and lines in the shortest path, displaying a structured and informative string.
-path (with method overriding): Finds the shortest path between two stations.
-findShortestDistance: Computes the shortest distance between two stations.
+“*”createStation: Adds a new station to the metro map.
+“*”createPath: Establishes a path between two stations, creating new stations if necessary.
+“*”getLineInfo: Retrieves information about metro lines.
+“*”pathInfo: Determines junctions and lines in the shortest path, displaying a structured and informative string.
+“*”path (with method overriding): Finds the shortest path between two stations.
+“*”findShortestDistance: Computes the shortest distance between two stations.
 The createPath method, when invoked, creates a path between two stations. If the stations already exist, it simply establishes a path; otherwise, it creates new stations before forming the path. The setPlatform method is utilized to assign platform numbers to stations, with the pathInfo method considering this information.
 
-Maps Package:
+Maps Package:<br>
 The maps package incorporates various classes representing maps of different cities. These classes leverage constructors and a group of createPath methods to define the metro network. After creating paths, the setPlatforms method is called to initialize platform numbers.
 
-Utility Package:
+Utility Package:<br>
 The utility package contains two classes, namely Lodash and DispStat.
 
-Lodash Class: Used for string formatting, it converts strings into camel case, replacing spaces with hyphens. It includes methods toLodash for converting an unformatted string to a lodash string and toNormal for reversing the process.
+“*”Lodash Class: Used for string formatting, it converts strings into camel case, replacing spaces with hyphens. It includes methods toLodash for converting an unformatted string to a lodash string and toNormal for reversing the process.
 
-DispStat Class: This class is responsible for printing all stations in alphabetical order. Stations starting with 'A' are printed on one line, those starting with 'B' on another, and so forth.
+“*”DispStat Class: This class is responsible for printing all stations in alphabetical order. Stations starting with 'A' are printed on one line, those starting with 'B' on another, and so forth.
 
-MetroSystem Package:
+MetroSystem Package:<br>
 The metroSystem package houses the main class, Initiator. This class performs the following tasks:
 
-Instantiates objects for all metro maps.<br>
-Allows the user to select a specific metro map.<br>
-Facilitates user selection of source and destination stations.<br>
-Prints the most efficient route based on the selected metro map.<br>
+“*”Instantiates objects for all metro maps.<br>
+“*”Allows the user to select a specific metro map.<br>
+“*”Facilitates user selection of source and destination stations.<br>
+“*”Prints the most efficient route based on the selected metro map.<br>
