@@ -11,12 +11,12 @@ This package encapsulates the core functionality of the metro navigation system 
 
 *MetroMap Class: Responsible for orchestrating the metro system's functionality, this class features methods such as:<br>
 
-*createStation: Adds a new station to the metro map.
-*createPath: Establishes a path between two stations, creating new stations if necessary.
-*getLineInfo: Retrieves information about metro lines.
-*pathInfo: Determines junctions and lines in the shortest path, displaying a structured and informative string.
-*path (with method overriding): Finds the shortest path between two stations.
-*findShortestDistance: Computes the shortest distance between two stations.
+*createStation: Adds a new station to the metro map.<br>
+*createPath: Establishes a path between two stations, creating new stations if necessary.<br>
+*getLineInfo: Retrieves information about metro lines.<br>
+*pathInfo: Determines junctions and lines in the shortest path, displaying a structured and informative string.<br>
+*path (with method overriding): Finds the shortest path between two stations.<br>
+*findShortestDistance: Computes the shortest distance between two stations.<br>
 The createPath method, when invoked, creates a path between two stations. If the stations already exist, it simply establishes a path; otherwise, it creates new stations before forming the path. The setPlatform method is utilized to assign platform numbers to stations, with the pathInfo method considering this information.
 
 Maps Package:<br>
