@@ -1,4 +1,4 @@
-package MetroNavigationSystem.MetroSyatem;
+package MetroNavigationSystem.MetroSystem;
 import MetroNavigationSystem.functionality.*;
 import MetroNavigationSystem.maps.*;
 import MetroNavigationSystem.utility.*;
