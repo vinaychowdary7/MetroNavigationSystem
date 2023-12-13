@@ -1,7 +1,7 @@
 
-Certainly, let's refine and detail the description of the Java terminal-based project named "Metro Navigation System":
+Certainly, let's refine and detail the description of the Java terminal-based project named "Metro Navigation System":<br>
 
-Project Overview:
+Project Overview:<br>
 The "Metro Navigation System" is a Java terminal-based application structured into four packages: metroSystem, functionality, maps, and utility. Each package serves a specific purpose to enhance the functionality and organization of the system.
 
 Functionality Package:
@@ -32,7 +32,7 @@ DispStat Class: This class is responsible for printing all stations in alphabeti
 MetroSystem Package:
 The metroSystem package houses the main class, Initiator. This class performs the following tasks:
 
-Instantiates objects for all metro maps.
-Allows the user to select a specific metro map.
-Facilitates user selection of source and destination stations.
-Prints the most efficient route based on the selected metro map.
+Instantiates objects for all metro maps.<br>
+Allows the user to select a specific metro map.<br>
+Facilitates user selection of source and destination stations.<br>
+Prints the most efficient route based on the selected metro map.<br>
